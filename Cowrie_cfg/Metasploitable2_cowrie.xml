@@ -1,0 +1,78 @@
+<domain type='kvm'>
+  <name>{guest_name}</name>
+  <memory unit='MiB'>512</memory>
+  <vcpu>2</vcpu>
+  <os>
+    <type arch='i686' machine='pc'>hvm</type>
+    <boot dev='hd'/>
+  </os>
+
+  <features>
+    <acpi/>
+    <apic/>
+    <vmport state='off'/>
+  </features>
+
+  <clock offset='utc'/>
+
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+
+  <pm>
+    <suspend-to-mem enabled='no'/>
+    <suspend-to-disk enabled='no'/>
+  </pm>
+
+  <devices>
+
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='{disk_image}'/>
+      <backingStore type='file'>
+                <format type='qcow2'/>
+                <source file='{base_image}'/>
+                <backingStore/>
+            </backingStore>
+      <target dev='hda' />
+    </disk>
+
+    <interface type='network'>
+      <start mode='onboot'/>
+      <mac address='{mac_address}'/>
+      <source network='{network_name}'/>
+      <model type='virtio'/>
+      <!-- <address type='pci' domain='0x0000' bus='0x01' slot='0x00' function='0x0'/> -->
+      <filterref filter='cowrie-default-filter'/>
+    </interface>
+
+    <!-- <controller type="usb" index="0" model="ich9-ehci1"/>
+    <controller type="usb" index="0" model="ich9-uhci1">
+      <master startport="0"/>
+    </controller>
+    <controller type="usb" index="0" model="ich9-uhci2">
+      <master startport="2"/>
+    </controller>
+    <controller type="usb" index="0" model="ich9-uhci3">
+      <master startport="4"/>
+    </controller> -->
+    <!-- <serial type='pty'>
+      <target port='0'/>
+    </serial>
+
+    <controller type='sata' index='0'>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x1f' function='0x2'/>
+    </controller>
+
+    <controller type='pci' index='0' model='pci-root'/>
+
+    <controller type='pci' index='6' model='pcie-root-port'>
+        <model name='pcie-root-port'/>
+        <target chassis='6' port='0x15'/>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x5'/>
+    </controller> -->
+
+  </devices>
+</domain>

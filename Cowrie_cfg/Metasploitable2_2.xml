@@ -1,0 +1,31 @@
+<domain type='kvm'>
+  <name>Meta2</name>
+  <uuid>24696d9e-68b7-4e5e-9517-e98bc691d54e</uuid>
+  <memory unit='MiB'>1024</memory>
+  <vcpu>1</vcpu>
+  <os>
+    <type arch='i686' machine='pc'>hvm</type>
+    <boot dev='hd'/>
+  </os>
+  <features>
+    <acpi/>
+  </features>
+  <clock offset='utc'/>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+  <devices>
+    <emulator>/usr/bin/kvm</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/dev/exdisk/Metasploitable2.qcow2'/>
+      <target dev='hda' />
+    </disk>
+    <interface type='network'>
+      <mac address='00:0C:29:FA:DD:2A'/>
+      <model type='virtio'/>
+      <source network='vbr1'/>
+      <model type='virtio'/>
+    </interface>
+  </devices>
+</domain>

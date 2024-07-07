@@ -1,0 +1,8 @@
+root:x:!root
+root:x:!123456
+root:x:!/honeypot/i
+root:x:*
+tomcat:x:*
+oracle:x:*
+*:x:somepassword
+*:x:*
