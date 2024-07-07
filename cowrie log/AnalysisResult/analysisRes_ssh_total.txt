@@ -1,0 +1,3 @@
+Total events: {'cowrie.session.connect': 19220, 'cowrie.command.input': 21921, 'cowrie.session.closed': 9140}
+Total unique source IPs: 4216
+Protocol counts: Counter({'ssh': 19116, 'telnet': 104})
