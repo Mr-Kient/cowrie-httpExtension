@@ -2,8 +2,10 @@
 
 This project aims to provide Cowire with an HTTP proxy service to break through existing SSH and Telnet service limitations
 
+![](http://cdn.kient.club/myOwn/arch%20%E6%8B%B7%E8%B4%9D_2.jpg)
+
 ## Cowrie Deployment and High Interaction Mode Configuration
-1. follow the document`High Interaction Cowrie Configuration_FINAL.pdf`
+1. follow the document`High Interaction Cowrie Configuration.md`
 
 2. copy `Cowrie_cfg/cowrie.cfg` to `cowrie/cowrie/etc`, this is an example of configuration file, you can feel free to edit it
 
