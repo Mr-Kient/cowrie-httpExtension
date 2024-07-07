@@ -15,8 +15,9 @@ This project aims to provide Cowire with an HTTP proxy service to break through 
 
 ## Change backend Virtual Machine Images
 
-Download source of Metasploitable2 in *qcow2* format: https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
-copy `/Cowrie_cfg/Metasploitable2_cowrie.xml` to `cowrie/cowrie/share/cowrie/pool_configs`
+1. Download source of Metasploitable2 in *qcow2* format: https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+
+2. copy `/Cowrie_cfg/Metasploitable2_cowrie.xml` to `cowrie/cowrie/share/cowrie/pool_configs`
 
 ## Define a New Virtual Network
 
